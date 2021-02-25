@@ -118,4 +118,9 @@ footer a {
   .input {
     flex-direction:column;
   }
+  #campo {
+    margin-left:0;
+    margin-right:0;
+    width:230px;
+  }
 }
