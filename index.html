@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validação de Campo com JS</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header pd_20 flex">
+    <div class="input flex">
+      <input type="text" name="valor" id="campo" autocomplete="off" autofocus maxlength="14" placeholder="Digite algum dia da semana..." onfocus="this.value='';">
+      <button id="btn" onclick="adicionar();">Adicionar</button>
+    </div>
+  </div>
+  <div class="content pd_20">
+    <div class="body flex">
+      <div class="container">
+        <h1>7 Dias da Semana - Hoje é <span class="diaDeHoje"></span>.</h1>
+        <ul class="listagem"></ul>
+      </div>
+  </div>
+  <footer class="footer flex">
+    Created by <a href="http://www.github.com/josuezolakiomd" target="_blank">Josué Zolakio</a> - Copyright ©️ 2021
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
