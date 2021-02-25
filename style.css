@@ -111,6 +111,8 @@ footer a {
   .header {
     display:flex;
     flex-direction:column;
+    position:static;
+    top:0;
   }
 }
 
